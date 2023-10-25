@@ -1,0 +1,52 @@
+{
+  "Movies": [
+    "the dark knight",
+    "black panther",
+    "ida",
+    "the wolf of wall street",
+    "ted",
+    "inception",
+    "memento",
+    "lucy",
+    "the god father",
+    "interstellar"
+  ],
+  "Series": [
+    "game of thrones",
+    "prison break",
+    "breaking bad",
+    "fringe",
+    "friends",
+    "how i met your mother",
+    "mr robot",
+    "davinci demons",
+    "vikings",
+    "bunshi",
+    "punsher",
+    "peaky blinders",
+    "narcos",
+    "money heist"
+  ],
+  "Programming Languages": [
+    "html",
+    "css",
+    "java script",
+    "python",
+    "java",
+    "php",
+    "go",
+    "matlab",
+    "c sharp"
+  ],
+  "Famous-Person": [
+    "messi",
+    "leonardo dicaprio ",
+    "brad pitt",
+    "angelina jolie",
+    "omar diab",
+    "george wassouf",
+    "tamer hosney",
+    "ahmed helmy",
+    "adel imam"
+  ]
+}

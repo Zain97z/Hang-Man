@@ -1,0 +1,33 @@
+/* components */
+.fontSpecial {
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.st {
+  background-color: var(--fontColor);
+  position: absolute;
+}
+.x-center {
+  transform: translate(-50%, 0);
+}
+.w-5 {
+  width: 5px;
+}
+.h-5 {
+  height: 5px;
+}
+.w-100 {
+  width: 100px;
+}
+.h-250 {
+  height: 250px;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
+/* End components */

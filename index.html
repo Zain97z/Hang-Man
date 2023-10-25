@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HangMan by Zain</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <form class="start" action="">
+        <label for="user">Please Enter Your Name</label>
+        <input type="text" id="user" name="userName" required />
+        <button id="submit">Submit</button>
+      </form>
+      <div class="header">
+        <div class="container">
+          <div class="logo fontSpecial">Hangman</div>
+          <img class="img" src="images/images33.jpg" alt="" />
+          <div class="word fontSpecial">Catagory:<span></span></div>
+        </div>
+      </div>
+      <div class="welcome">Welcome <span class="name"></span></div>
+      <div class="game">
+        <div class="container">
+          <div class="pieces">
+            <div class="stand h-5"></div>
+            <div class="toUp w-5"></div>
+            <div class="top"></div>
+            <div class="toDown"></div>
+            <div class="hang"></div>
+            <div class="man">
+              <div class="head"></div>
+              <div class="body"></div>
+              <div class="hands"></div>
+              <div class="hands"></div>
+              <div class="legs"></div>
+            </div>
+          </div>
+          <div class="letters"></div>
+        </div>
+      </div>
+      <div class="chosing">
+        <div class="container">
+          <div class="rightAnswer"></div>
+        </div>
+      </div>
+    </div>
+
+    <audio src="Music/fail.mp3" id="fail" preload="auto"></audio>
+    <audio src="Music/success.mp3" id="success" preload="auto"></audio>
+    <audio src="Music/gameOver.mp3" id="gameOver" preload="auto"></audio>
+    <audio src="Music/game-bonus-144751.mp3" id="good" preload="auto"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+
